@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import './reset.css';
 @import './header.css';
 
 :root {
@@ -31,7 +32,7 @@ a {
     right: 0;
     /* background-color: black;
     opacity:0.5;    */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 header,
@@ -47,6 +48,33 @@ main {
     font-size: 4rem;
 }
 
+.login-container {
+    width: 320px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    display:none;
+}
+
+.clock {
+    font-size: 7rem;
+}
+
 main .great {
     font-size: 0.8rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    left: 0;
 }
