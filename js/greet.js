@@ -1,4 +1,5 @@
 const greet = document.querySelector(".greet");
+const profile = document.querySelector("#profile");
 
 const LS_KEY = {
     NAME: 'name'
@@ -6,7 +7,7 @@ const LS_KEY = {
 
 function main() {
     const user = localStorage.getItem(LS_KEY.NAME) || 'rockstar';
-    console.log(user, LS_KEY.NAME   )
+
     const hour = new Date().getHours();
     // 0 ~ 11 Good morning,
     // 12 ~ 18 Good afternnon

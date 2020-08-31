@@ -56,9 +56,53 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.3);
-    display:none;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+
 }
 
+.login-container input{
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    box-sizing: inherit;
+    border-radius: 2rem;
+    outline: none;
+
+}
+
+.login-container input::placeholder{
+    color:white;
+    opacity:0.8;
+
+}
+
+.login-container button{
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    box-sizing: inherit;
+    border-radius: 2rem;
+    outline: none;
+    box-shadow: 0 0.2rem rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    
+}
+.login-container button:hover{
+    filter:brightness(130%);
+    
+}
+.login-container button:active{
+    transform:translate(0, 0.2rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.5);
+
+
+}
 .clock {
     font-size: 7rem;
 }
