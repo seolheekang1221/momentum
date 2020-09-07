@@ -111,6 +111,62 @@ main .great {
     font-size: 0.8rem;
 }
 
+.todo-container{
+    max-width: 800px;
+    margin: 24px auto;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.todo-form {
+    margin-bottom: 1rem;
+}
+
+.todo-form input {
+    width: 80%;
+    padding: 0.7rem;
+    border-radius: 3rem;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    background-color: transparent;
+    color: var(--primary-color)
+}
+
+.todos {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 90%;
+    overflow-y: auto;
+}
+
+input::placeholder {
+    color: var(--primary-color);
+    opacity: 0.5;
+}
+
+.todos{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    margin:0 auto;
+}
+.todos .item{
+    display:flex;
+    text-align: left;
+}
+
+.todos .item .todo{
+    flex:1 0 auto;
+}
+
+.todos .item .delete {
+    margin-left: 1rem;
+}
 footer {
     display: flex;
     align-items: center;
@@ -122,3 +178,4 @@ footer {
     box-sizing: border-box;
     left: 0;
 }
+
