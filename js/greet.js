@@ -1,12 +1,12 @@
 const greet = document.querySelector(".greet");
 const profile = document.querySelector("#profile");
 
-const LS_KEY = {
+const LS_GREET_KEY = {
     NAME: 'name'
 };
 
 function main() {
-    const user = localStorage.getItem(LS_KEY.NAME) || 'rockstar';
+    const user = localStorage.getItem(LS_GREET_KEY.NAME) || 'rockstar';
 
     const hour = new Date().getHours();
     // 0 ~ 11 Good morning,
@@ -21,7 +21,7 @@ function main() {
         greeting = "Good morning";
     }
     const message = `${greeting}, ${user}.`;
-    greet.innerHTML=message;
+    greet.innerHTML = message;
 
 }
 main()

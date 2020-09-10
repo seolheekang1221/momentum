@@ -62,7 +62,7 @@ main {
 
 }
 
-.login-container input{
+.login-container input {
     padding: 1rem;
     background-color: transparent;
     border: 1px solid white;
@@ -74,13 +74,13 @@ main {
 
 }
 
-.login-container input::placeholder{
-    color:white;
-    opacity:0.8;
+.login-container input::placeholder {
+    color: white;
+    opacity: 0.8;
 
 }
 
-.login-container button{
+.login-container button {
     padding: 1rem 2rem;
     margin-top: 3rem;
     background-color: red;
@@ -91,18 +91,21 @@ main {
     outline: none;
     box-shadow: 0 0.2rem rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    
+
 }
-.login-container button:hover{
-    filter:brightness(130%);
-    
+
+.login-container button:hover {
+    filter: brightness(130%);
+
 }
-.login-container button:active{
-    transform:translate(0, 0.2rem);
+
+.login-container button:active {
+    transform: translate(0, 0.2rem);
     box-shadow: 0 0.1rem rgba(255, 255, 255, 0.5);
 
 
 }
+
 .clock {
     font-size: 7rem;
 }
@@ -111,13 +114,13 @@ main .great {
     font-size: 0.8rem;
 }
 
-.todo-container{
+.todo-container {
     max-width: 800px;
     margin: 24px auto;
     height: 45vh;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1.5rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 
@@ -142,6 +145,10 @@ main .great {
     line-height: 1.5rem;
     height: 90%;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
 }
 
 input::placeholder {
@@ -149,24 +156,26 @@ input::placeholder {
     opacity: 0.5;
 }
 
-.todos{
-    display:flex;
-    flex-direction: column;
-    width:70%;
-    margin:0 auto;
-}
-.todos .item{
-    display:flex;
+.todos .item {
+    display: flex;
     text-align: left;
+    align-items: center;
+    line-height: 2rem;
 }
 
-.todos .item .todo{
-    flex:1 0 auto;
+.todos .item .todo {
+    flex: 1 0 auto;
+    background-color: transparent;
+    color: var(--primary-color);
+
 }
+
+
 
 .todos .item .delete {
     margin-left: 1rem;
 }
+
 footer {
     display: flex;
     align-items: center;
@@ -178,4 +187,3 @@ footer {
     box-sizing: border-box;
     left: 0;
 }
-
