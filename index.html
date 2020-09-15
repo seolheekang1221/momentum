@@ -13,6 +13,7 @@
     <script src="./js/user.js" defer></script>
     <script src="./js/weather.js" defer></script>
     <script src="./js/todo.js" defer></script>
+    <script src="./js/toggle.js" defer></script>
 </head>
 
 <body>
@@ -34,10 +35,21 @@
         <nav class="right">
             <div class="item" id="profile"><i class="fas fa-user"></i></div>
         </nav>
+
+        <a href="#" class="toggle_button">
+            <div class="nav_mobile"><i class="fas fa-bars"></i></div>
+        </a>
+        <nav class="mobile-header">
+            <div class="item"><a href="/about.html">about</a></div>
+            <div class="item"><a href="/contact.html">contact</a></div>
+            <div class="item" id="profile"><i class="fas fa-user"></i></div>
+        </nav>
+
     </header>
     <main>
         <h1 class="clock">00:00</h1>
         <div class="greet">Good evening, rockstar.</div>
+        <div class="greet-mobile">Good evening, rockstar.</div>
         <div class="todo-container">
             <form class="todo-form">
                 <input id=todo placeholder="todo">

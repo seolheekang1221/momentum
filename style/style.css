@@ -122,8 +122,9 @@ main {
     font-size: 7rem;
 }
 
-main .great {
-    font-size: 0.8rem;
+.greet-mobile {
+    font-size: 1.5rem;
+    display: none;
 }
 
 .todo-container {
@@ -198,4 +199,13 @@ footer {
     height: 80px;
     box-sizing: border-box;
     left: 0;
+}
+
+@media all and (max-width: 800px) {
+    .greet{
+        display:none;
+    }
+    .greet-mobile {
+        display: block;
+    }
 }
