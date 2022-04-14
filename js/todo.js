@@ -12,27 +12,13 @@ class Todo {
         return `${this.id}, ${this.desc}, ${this.done}`;
     }
 }
-// let todoList = ["Study web programming", "Study English"];
-// let todoList = [{
-//     id: 0,
-//     desc: "Study web programming",
-//     done: false
-// }]
+
 let todoList = [];
 
 let currentTodo = '';
 const LS_TODO_KEY = {
     TODOS: 'todos'
 }
-
-/*
-<li class="item">
-    <input type="checkbox" name="" id="">
-    <span class="todo">Study react and english</span>
-    <span class="update">📝</span>
-    <span class="delete">🗑️</span>
-</li>
-*/
 
 function renderTodo(todo) {
     return `<li class="item" data-id=${todo.id}>
@@ -49,13 +35,8 @@ function saveDataToDB() {
 
 function todoSubmitHandler(event) {
     event.preventDefault();
-    // Todo: firstElementChild vs firstChild
+
     const todoValue = this.firstElementChild.value;
-    // const todo = {
-    //     id: todoList.length,
-    //     desc: todoValue,
-    //     done: false
-    // }
     const todo = new Todo(todoList.length, todoValue, false);
 
     todoList.push(todo);
@@ -94,7 +75,6 @@ function todosClickHandler(e) {
     console.log(e.target, e.target.classList.contains("delete"))
     if (e.target.classList.contains("delete")) {
         const targetTodo = e.target.previousElementSibling.previousElementSibling.innerText;
-        // console.log(e.target.parentElement.firstElementChild.nextElementSibling.innerText)
         const idx = todoList.findIndex(e => e.desc === targetTodo);
         todos.removeChild(todos.children[idx]);
         todoList.splice(idx, 1);
@@ -105,10 +85,7 @@ function todosClickHandler(e) {
         if (e.target.checked) {
             todoList[idx].done = true;
             saveDataToDB();
-            // css => text-decoration: line-through;
             e.target.nextElementSibling.style.textDecoration = 'line-through';
-            // const deleteButton = e.target.parentElement.querySelector('.delete');
-            // deleteButton.disabled = true;
             e.target.parentElement.lastElementChild.disabled = true;
         } else {
             todoList[idx].done = false;

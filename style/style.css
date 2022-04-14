@@ -32,7 +32,6 @@ body {
 a {
     color: var(--primary-color);
     text-decoration: none;
-
 }
 
 .overlay-image {
@@ -41,8 +40,6 @@ a {
     left: 0;
     bottom: 0;
     right: 0;
-    /* background-color: black;
-    opacity:0.5;    */
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -54,7 +51,6 @@ footer {
 }
 
 main {
-    /* margin:0 auto;  */
     text-align: center;
     font-size: 4rem;
 }
@@ -71,7 +67,6 @@ main {
     box-sizing: border-box;
     text-align: center;
     z-index: 10;
-
 }
 
 .login-container input {
@@ -83,13 +78,11 @@ main {
     box-sizing: inherit;
     border-radius: 2rem;
     outline: none;
-
 }
 
 .login-container input::placeholder {
     color: white;
     opacity: 0.8;
-
 }
 
 .login-container button {
@@ -103,19 +96,15 @@ main {
     outline: none;
     box-shadow: 0 0.2rem rgba(255, 255, 255, 0.5);
     cursor: pointer;
-
 }
 
 .login-container button:hover {
     filter: brightness(130%);
-
 }
 
 .login-container button:active {
     transform: translate(0, 0.2rem);
     box-shadow: 0 0.1rem rgba(255, 255, 255, 0.5);
-
-
 }
 
 .clock {
@@ -136,7 +125,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .todo-form {
@@ -180,7 +168,6 @@ input::placeholder {
     flex: 1 0 auto;
     background-color: transparent;
     color: var(--primary-color);
-
 }
 
 
@@ -202,9 +189,10 @@ footer {
 }
 
 @media all and (max-width: 800px) {
-    .greet{
-        display:none;
+    .greet {
+        display: none;
     }
+
     .greet-mobile {
         display: block;
     }

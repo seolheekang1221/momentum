@@ -7,8 +7,6 @@ const locationInfo = document.querySelector("#location-info");
 
 function main(){
     navigator.geolocation.getCurrentPosition(function(data){
-        // console.log(data);
-        // data.coords.latitude, data.coords.longitude
         const { latitude, longitude} = data.coords;
         fetch(getLocationURL(latitude, longitude))
             .then(res => res.json())
@@ -20,8 +18,6 @@ function main(){
     }, function(error){
         console.log(error);
     })
-    // api continue
-
 }
 
 main()

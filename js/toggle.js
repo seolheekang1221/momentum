@@ -4,9 +4,6 @@ const right = document.querySelector('.right');
 const mobile = document.querySelector('.mobile-header');
 
 function clickHandler() {
-    // left.classList.toggle('active');
-    // right.classList.toggle('active');
-    console.log('start')
     if (mobile.classList.contains('inactive')) {
         mobile.classList.remove('inactive')
         mobile.classList.add('active');
@@ -17,13 +14,10 @@ function clickHandler() {
 }
 
 function resizeHandler(e) {
-   // console.log(window.innerWidth)
    if(window.innerWidth >= 750){
        mobile.classList.remove('active');
        mobile.classList.add('inactive');
    }
-
-
 }
 
 function main() {

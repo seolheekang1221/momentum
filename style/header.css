@@ -54,11 +54,9 @@ header {
     header {
         align-items: center;
         flex-direction: column;
-
     }
 
     .mobile-header {
-        /* display:flex; */
         flex-direction: column;
     }
 
@@ -91,6 +89,4 @@ header {
     .right.active {
         display: flex;
     }
-
-
 }

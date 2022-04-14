@@ -5,18 +5,12 @@ function getZero(value) {
 }
 
 function main() {
-
     setInterval(function () {
         const currentTime = new Date();
         const hour = getZero(currentTime.getHours());
         const min = getZero(currentTime.getMinutes());
         const sec = getZero(currentTime.getSeconds());
-
-        // console.log(hour + ":" + min + ":" + sec);
-        // clock.innerHTML = hour + ":" + min + ":" + sec;
         clock.innerHTML = `${hour}:${min}:${sec}`;
     }, 1000);
-
 }
-
 main()

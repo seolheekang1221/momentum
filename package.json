@@ -1,23 +1,19 @@
 {
   "name": "momentum",
   "version": "1.0.0",
-  "description": "",
+  "description": "momentum",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/seolhee2/momentum.git"
+    "url": "git+https://github.com/seolheekang1221/momentum.git"
   },
-  "keywords": [
-    "pure",
-    "javascript"
-  ],
-  "author": "seol",
+  "author": "Seolhee Kang",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/seolhee2/momentum/issues"
+    "url": "https://github.com/seolheekang1221/momentum/issues"
   },
-  "homepage": "https://gitlab.com/seolhee2/momentum#readme"
+  "homepage": "https://github.com/seolheekang1221/momentum#readme"
 }
