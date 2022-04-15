@@ -27,7 +27,8 @@ This app is deployed and hosted using github.
 
 
 ### 4. My location Weather API
-    ![53](https://user-images.githubusercontent.com/71479209/163597706-48467c7f-096f-4aa3-935d-5762a2239a1f.png)
+    
+![53](https://user-images.githubusercontent.com/71479209/163598385-743354dd-1249-4656-844a-69d756163726.png)
 
 
 ### 5. Login
@@ -44,6 +45,7 @@ This app is deployed and hosted using github.
     
     
 ![8](https://user-images.githubusercontent.com/71479209/163597826-87b9bede-8e8e-492d-8283-150a549d1fb7.png)
-### . 
 
-    ![9](https://user-images.githubusercontent.com/71479209/163597836-bab204c4-6510-404a-9964-557af45eb4b9.png)
+### 8. after logging out
+  
+![9](https://user-images.githubusercontent.com/71479209/163598421-a1d91f62-ecd6-4170-99d2-249d5026f80c.png)
