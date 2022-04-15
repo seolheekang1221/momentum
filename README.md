@@ -7,7 +7,7 @@ This app is a Momentum clone built with Html, Css, Javascript with local storage
 - Greeting with Name after login
 - Current Time
 - Randomized wallpaper
-- 
+
 # Deployment
 This app is deployed and hosted using github. 
 <a href="https://seolheekang1221.github.io/momentum/" rel="nofollow">momentum<a/>
@@ -22,7 +22,7 @@ This app is deployed and hosted using github.
 
 ### 3. finish, check and delete the to-do-list
   ![3](https://user-images.githubusercontent.com/71479209/163597499-ad080d36-d220-485e-88fb-b9ad866060d2.png)
-    
+### .
    ![4](https://user-images.githubusercontent.com/71479209/163597546-e8152a7c-461e-4d64-bc91-346c8e1cab06.png)
 
 
@@ -37,7 +37,7 @@ This app is deployed and hosted using github.
   
 ![6](https://user-images.githubusercontent.com/71479209/163597773-888b5513-ef53-4652-9dd4-7b19423bcf6c.png)
     
- 
+### .
 ![7](https://user-images.githubusercontent.com/71479209/163597792-d83808ca-ebc9-4ec5-bcbc-affdc4269fdd.png)
     
 ### 7. log out
